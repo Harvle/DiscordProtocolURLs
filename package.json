@@ -1,0 +1,39 @@
+{
+  "name": "discordprotocolurls",
+  "version": "1.0.0",
+  "description": "blah",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsup"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Harvle/DiscordProtocolURLs.git"
+  },
+  "keywords": [
+    "Discord"
+  ],
+  "author": "Harvle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Harvle/DiscordProtocolURLs/issues"
+  },
+  "homepage": "https://github.com/Harvle/DiscordProtocolURLs#readme",
+  "devDependencies": {
+    "tsup": "^6.5.0",
+    "typescript": "^4.9.4"
+  },
+  "types": "./dist/index.d.ts",
+  "exports": {
+    "import": "./dist/index.mjs",
+    "require": "./dist/index.js",
+    "types": "./dist/index.mjs"
+  },
+  "directories": {
+    "lib": "src"
+  },
+  "files": [
+    "dist"
+  ]
+}

@@ -1,0 +1,9 @@
+# Packages
+node_modules/
+
+# Dist
+dist/
+typings/
+
+package.lock.json
+wiki/
