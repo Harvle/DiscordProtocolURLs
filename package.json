@@ -17,7 +17,7 @@
     "Discord-Protocol"
   ],
   "author": "Harvle",
-  "license": "ISC",
+  "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/Harvle/DiscordProtocolURLs/issues"
   },
