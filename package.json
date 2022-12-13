@@ -4,7 +4,6 @@
   "description": "Build all of Discord's known protocol URLs easily",
   "main": "./dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsup"
   },
   "repository": {
@@ -12,7 +11,10 @@
     "url": "git+https://github.com/Harvle/DiscordProtocolURLs.git"
   },
   "keywords": [
-    "Discord"
+    "Discord",
+    "Discord-Bot",
+    "Discord-js",
+    "Discord-Protocol"
   ],
   "author": "Harvle",
   "license": "ISC",

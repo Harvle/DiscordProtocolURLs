@@ -46,8 +46,6 @@ export default class ProtocolURLBuilder {
     };
 
     /**
-     * @deprecated Discord has removed support for the store, thus this URL no longer works!
-     * 
      * Goes to the store page
      * 
      *• Link format: `discord://-/store`
