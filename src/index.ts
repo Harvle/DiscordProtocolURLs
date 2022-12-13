@@ -703,6 +703,18 @@ export default class ProtocolURLBuilder {
     };
 
     /**
+     * Goes to the specified guild's role subscriptions settings page
+     * 
+     *• Link format: `discord://-/guilds/<guildId>/settings/role-subscriptions`
+     * @param guildId The guild ID to use
+     * @param discordClickable If true, will build a link that will be clickable in Discord
+     * @returns The URL as a string, optionally with clickable markdown
+     */
+    guildSettingsRoleSubscriptions(guildId: string, discordClickable: boolean = false): string {
+        return this._buildURL(this.baseURL + "guilds/" + guildId + "/settings/role-subscriptions", discordClickable);
+    };
+
+    /**
      * Goes to the specified guild's premium (nitro server boosts) settings page
      * 
      *• Link format: `discord://-/guilds/<guildId>/settings/guild-premium`
