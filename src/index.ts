@@ -760,6 +760,18 @@ export default class ProtocolURLBuilder {
         return this._buildURL(this.baseURL + "guilds/" + guildId + "/settings/delete", discordClickable);
     };
 
+    /**
+     * Goes to the specified guild's onboarding settings page
+     * 
+     *• Link format: `discord://-/guilds/<guildId>/settings/onboarding`
+     * @param guildId The guild ID to use
+     * @param discordClickable If true, will build a link that will be clickable in Discord
+     * @returns The URL as a string, optionally with clickable markdown
+     */
+    guildSettingsOnboarding(guildId: string, discordClickable: boolean = false): string {
+        return this._buildURL(this.baseURL + "guilds/" + guildId + "/settings/onboarding", discordClickable);
+    };
+
     // User Routes
 
     /**
